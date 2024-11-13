@@ -5,13 +5,13 @@
 This is a simple task management application built as part of the Frontend Programming course (CSCI 6333 - Assignment 03). The app allows users to add, complete, delete tasks, and view task statistics. The main objective is to practice using core React hooks, such as useState, useEffect, useContext, useReducer, useRef, useMemo, and useCallback, as well as to implement a custom hook for data persistence with localStorage.
 
 ## Feature
-**Add Tasks**: Users can add new tasks by entering a title.
-**Complete/Uncomplete Tasks**: Users can mark tasks as completed or uncompleted.
-**Delete Tasks**: Users can delete individual tasks from the list.
-**Task Statistics**: The app displays the total number of tasks and the number of completed tasks.
-**User Context**: Simulates user-specific tasks by including a user login context.
-**Performance Optimizations**: Uses useCallback and useMemo to prevent unnecessary re-renders.
-**Persist Tasks**: A custom hook (useLocalStorage) is used to save tasks to localStorage, allowing them to persist across page reloads.
+- **Add Tasks**: Users can add new tasks by entering a title.
+- **Complete/Uncomplete Tasks**: Users can mark tasks as completed or uncompleted.
+- **Delete Tasks**: Users can delete individual tasks from the list.
+- **Task Statistics**: The app displays the total number of tasks and the number of completed tasks.
+- **User Context**: Simulates user-specific tasks by including a user login context.
+- **Performance Optimizations**: Uses useCallback and useMemo to prevent unnecessary re-renders.
+- **Persist Tasks**: A custom hook (useLocalStorage) is used to save tasks to localStorage, allowing them to persist across page reloads.
 
 ### `npm start`
 
